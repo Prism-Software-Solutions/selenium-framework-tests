@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-current.dtd">
+<suite name="Selenium Test Suite" parallel="false" verbose="2">
+    <test name="Prism Software Solutions Tests">
+        <classes>
+            <class name="com.selenium.tests.ui.prism.HomePageTest"/>
+            <class name="com.selenium.tests.ui.prism.AboutPageTest"/>
+            <class name="com.selenium.tests.ui.prism.ContactPageTest"/>
+            <class name="com.selenium.tests.ui.prism.PrismNavigationTest"/>
+        </classes>
+    </test>
+</suite>

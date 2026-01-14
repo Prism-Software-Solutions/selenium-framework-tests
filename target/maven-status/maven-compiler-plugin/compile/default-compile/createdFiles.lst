@@ -1,0 +1,5 @@
+com/selenium/tests/pages/prism/HomePage.class
+com/selenium/tests/pages/prism/AboutPage.class
+com/selenium/tests/base/BaseTest.class
+com/selenium/tests/pages/prism/ContactPage.class
+com/selenium/tests/pages/BasePage.class
