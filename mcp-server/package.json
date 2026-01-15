@@ -1,0 +1,20 @@
+{
+  "name": "selenium-test-mcp-server",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "MCP Server for managing Selenium UI test framework",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node index.js 'List all available tests'",
+    "run-tests": "node index.js 'Run all tests and show results'",
+    "report": "node index.js 'Generate a test report'"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.20.0",
+    "dotenv": "^17.2.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
